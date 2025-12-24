@@ -30,7 +30,7 @@ def unpickle(file):
         dict = pickle.load(fo, encoding='bytes')
     return dict
     
-class HiddenLayer(nn.Module):
+class HiddenLayer(nn.Module):/
     def __init__(self, pretrained_model):
         super().__init__()
         self.premodel = pretrained_model
